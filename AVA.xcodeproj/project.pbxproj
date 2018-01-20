@@ -10,6 +10,11 @@
 		3252E4B9F9C9420FE67D7207 /* Pods_AVA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EA929FC61AE73D45818433 /* Pods_AVA.framework */; };
 		626C6705201346B900D3EA03 /* AhSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C6704201346B900D3EA03 /* AhSchema.swift */; };
 		626C67082013522100D3EA03 /* NaSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C67072013522100D3EA03 /* NaSchema.swift */; };
+		626C670B2013602D00D3EA03 /* NaDealSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C670A2013602D00D3EA03 /* NaDealSchema.swift */; };
+		626C670D2013624C00D3EA03 /* BaSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C670C2013624C00D3EA03 /* BaSchema.swift */; };
+		626C670F201367DD00D3EA03 /* BaDealSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C670E201367DD00D3EA03 /* BaDealSchema.swift */; };
+		626C671120136C6B00D3EA03 /* CommentSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C671020136C6B00D3EA03 /* CommentSchema.swift */; };
+		626C671320136CF900D3EA03 /* DaSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C671220136CF900D3EA03 /* DaSchema.swift */; };
 		62BE31B7201315B700FC88DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE31B6201315B700FC88DC /* AppDelegate.swift */; };
 		62BE31B9201315B700FC88DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE31B8201315B700FC88DC /* ViewController.swift */; };
 		62BE31BC201315B700FC88DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BE31BA201315B700FC88DC /* Main.storyboard */; };
@@ -21,6 +26,11 @@
 /* Begin PBXFileReference section */
 		626C6704201346B900D3EA03 /* AhSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhSchema.swift; sourceTree = "<group>"; };
 		626C67072013522100D3EA03 /* NaSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaSchema.swift; sourceTree = "<group>"; };
+		626C670A2013602D00D3EA03 /* NaDealSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaDealSchema.swift; sourceTree = "<group>"; };
+		626C670C2013624C00D3EA03 /* BaSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaSchema.swift; sourceTree = "<group>"; };
+		626C670E201367DD00D3EA03 /* BaDealSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaDealSchema.swift; sourceTree = "<group>"; };
+		626C671020136C6B00D3EA03 /* CommentSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentSchema.swift; sourceTree = "<group>"; };
+		626C671220136CF900D3EA03 /* DaSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaSchema.swift; sourceTree = "<group>"; };
 		62BE31B3201315B700FC88DC /* AVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BE31B6201315B700FC88DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62BE31B8201315B700FC88DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +142,11 @@
 				62BE31CE2013405400FC88DC /* UserSchema.swift */,
 				626C6704201346B900D3EA03 /* AhSchema.swift */,
 				626C67072013522100D3EA03 /* NaSchema.swift */,
+				626C670A2013602D00D3EA03 /* NaDealSchema.swift */,
+				626C670C2013624C00D3EA03 /* BaSchema.swift */,
+				626C670E201367DD00D3EA03 /* BaDealSchema.swift */,
+				626C671020136C6B00D3EA03 /* CommentSchema.swift */,
+				626C671220136CF900D3EA03 /* DaSchema.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -281,8 +296,13 @@
 				626C67082013522100D3EA03 /* NaSchema.swift in Sources */,
 				62BE31CF2013405400FC88DC /* UserSchema.swift in Sources */,
 				62BE31B9201315B700FC88DC /* ViewController.swift in Sources */,
+				626C671320136CF900D3EA03 /* DaSchema.swift in Sources */,
 				62BE31B7201315B700FC88DC /* AppDelegate.swift in Sources */,
+				626C670D2013624C00D3EA03 /* BaSchema.swift in Sources */,
+				626C671120136C6B00D3EA03 /* CommentSchema.swift in Sources */,
 				626C6705201346B900D3EA03 /* AhSchema.swift in Sources */,
+				626C670B2013602D00D3EA03 /* NaDealSchema.swift in Sources */,
+				626C670F201367DD00D3EA03 /* BaDealSchema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
