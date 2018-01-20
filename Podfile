@@ -6,4 +6,5 @@ target 'AVA' do
   use_frameworks!
     pod 'Alamofire', '~> 4.5'
     pod 'AlamofireObjectMapper', '~> 5.0'
+    pod 'SnapKit', '~> 4.0.0'
 end

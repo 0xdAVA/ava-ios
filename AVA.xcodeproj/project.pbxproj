@@ -15,8 +15,15 @@
 		626C670F201367DD00D3EA03 /* BaDealSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C670E201367DD00D3EA03 /* BaDealSchema.swift */; };
 		626C671120136C6B00D3EA03 /* CommentSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C671020136C6B00D3EA03 /* CommentSchema.swift */; };
 		626C671320136CF900D3EA03 /* DaSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C671220136CF900D3EA03 /* DaSchema.swift */; };
+		626C671A20137EE600D3EA03 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C671920137EE600D3EA03 /* TabBarViewController.swift */; };
+		626C671D20139B7600D3EA03 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C671C20139B7600D3EA03 /* MainCell.swift */; };
+		626C671F20139CBB00D3EA03 /* TopFiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C671E20139CBB00D3EA03 /* TopFiveCell.swift */; };
+		626C67212013A81C00D3EA03 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C67202013A81C00D3EA03 /* StoryCell.swift */; };
+		626C67232013ABF300D3EA03 /* TopFiveDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C67222013ABF300D3EA03 /* TopFiveDetailCell.swift */; };
+		626C67252013B4C300D3EA03 /* GroupListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C67242013B4C300D3EA03 /* GroupListCell.swift */; };
+		626C67282013C36700D3EA03 /* APIUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C67272013C36700D3EA03 /* APIUrls.swift */; };
 		62BE31B7201315B700FC88DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE31B6201315B700FC88DC /* AppDelegate.swift */; };
-		62BE31B9201315B700FC88DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE31B8201315B700FC88DC /* ViewController.swift */; };
+		62BE31B9201315B700FC88DC /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE31B8201315B700FC88DC /* Tab1ViewController.swift */; };
 		62BE31BC201315B700FC88DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BE31BA201315B700FC88DC /* Main.storyboard */; };
 		62BE31BE201315B700FC88DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BE31BD201315B700FC88DC /* Assets.xcassets */; };
 		62BE31C1201315B700FC88DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BE31BF201315B700FC88DC /* LaunchScreen.storyboard */; };
@@ -31,9 +38,16 @@
 		626C670E201367DD00D3EA03 /* BaDealSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaDealSchema.swift; sourceTree = "<group>"; };
 		626C671020136C6B00D3EA03 /* CommentSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentSchema.swift; sourceTree = "<group>"; };
 		626C671220136CF900D3EA03 /* DaSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaSchema.swift; sourceTree = "<group>"; };
+		626C671920137EE600D3EA03 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		626C671C20139B7600D3EA03 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		626C671E20139CBB00D3EA03 /* TopFiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFiveCell.swift; sourceTree = "<group>"; };
+		626C67202013A81C00D3EA03 /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		626C67222013ABF300D3EA03 /* TopFiveDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFiveDetailCell.swift; sourceTree = "<group>"; };
+		626C67242013B4C300D3EA03 /* GroupListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListCell.swift; sourceTree = "<group>"; };
+		626C67272013C36700D3EA03 /* APIUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrls.swift; sourceTree = "<group>"; };
 		62BE31B3201315B700FC88DC /* AVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BE31B6201315B700FC88DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62BE31B8201315B700FC88DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62BE31B8201315B700FC88DC /* Tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
 		62BE31BB201315B700FC88DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62BE31BD201315B700FC88DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62BE31C0201315B700FC88DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +78,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		626C671420137CDE00D3EA03 /* Tab1VC */ = {
+			isa = PBXGroup;
+			children = (
+				62BE31B8201315B700FC88DC /* Tab1ViewController.swift */,
+			);
+			path = Tab1VC;
+			sourceTree = "<group>";
+		};
+		626C671520137CEA00D3EA03 /* Tab2VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tab2VC;
+			sourceTree = "<group>";
+		};
+		626C671620137CF200D3EA03 /* Tab3VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tab3VC;
+			sourceTree = "<group>";
+		};
+		626C671720137CFA00D3EA03 /* Tab4VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tab4VC;
+			sourceTree = "<group>";
+		};
+		626C671820137ECF00D3EA03 /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				626C671920137EE600D3EA03 /* TabBarViewController.swift */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		626C671B20139B5500D3EA03 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				626C671C20139B7600D3EA03 /* MainCell.swift */,
+				626C671E20139CBB00D3EA03 /* TopFiveCell.swift */,
+				626C67202013A81C00D3EA03 /* StoryCell.swift */,
+				626C67222013ABF300D3EA03 /* TopFiveDetailCell.swift */,
+				626C67242013B4C300D3EA03 /* GroupListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		626C67262013C35200D3EA03 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				626C67272013C36700D3EA03 /* APIUrls.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		62BE31AA201315B700FC88DC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +156,8 @@
 		62BE31B5201315B700FC88DC /* AVA */ = {
 			isa = PBXGroup;
 			children = (
+				626C67262013C35200D3EA03 /* Utils */,
+				626C671B20139B5500D3EA03 /* Cells */,
 				62BE31C2201315B700FC88DC /* Info.plist */,
 				62BE31CD2013171300FC88DC /* Models */,
 				62BE31CC201316BB00FC88DC /* plist */,
@@ -99,7 +172,11 @@
 		62BE31C82013166F00FC88DC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				62BE31B8201315B700FC88DC /* ViewController.swift */,
+				626C671820137ECF00D3EA03 /* TabBarVC */,
+				626C671420137CDE00D3EA03 /* Tab1VC */,
+				626C671520137CEA00D3EA03 /* Tab2VC */,
+				626C671620137CF200D3EA03 /* Tab3VC */,
+				626C671720137CFA00D3EA03 /* Tab4VC */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -274,12 +351,14 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -295,14 +374,21 @@
 			files = (
 				626C67082013522100D3EA03 /* NaSchema.swift in Sources */,
 				62BE31CF2013405400FC88DC /* UserSchema.swift in Sources */,
-				62BE31B9201315B700FC88DC /* ViewController.swift in Sources */,
+				626C671D20139B7600D3EA03 /* MainCell.swift in Sources */,
+				626C67212013A81C00D3EA03 /* StoryCell.swift in Sources */,
+				62BE31B9201315B700FC88DC /* Tab1ViewController.swift in Sources */,
 				626C671320136CF900D3EA03 /* DaSchema.swift in Sources */,
+				626C67282013C36700D3EA03 /* APIUrls.swift in Sources */,
 				62BE31B7201315B700FC88DC /* AppDelegate.swift in Sources */,
+				626C67252013B4C300D3EA03 /* GroupListCell.swift in Sources */,
 				626C670D2013624C00D3EA03 /* BaSchema.swift in Sources */,
 				626C671120136C6B00D3EA03 /* CommentSchema.swift in Sources */,
 				626C6705201346B900D3EA03 /* AhSchema.swift in Sources */,
 				626C670B2013602D00D3EA03 /* NaDealSchema.swift in Sources */,
+				626C671A20137EE600D3EA03 /* TabBarViewController.swift in Sources */,
 				626C670F201367DD00D3EA03 /* BaDealSchema.swift in Sources */,
+				626C671F20139CBB00D3EA03 /* TopFiveCell.swift in Sources */,
+				626C67232013ABF300D3EA03 /* TopFiveDetailCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
