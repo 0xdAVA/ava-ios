@@ -8,14 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3252E4B9F9C9420FE67D7207 /* Pods_AVA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EA929FC61AE73D45818433 /* Pods_AVA.framework */; };
+		626C6705201346B900D3EA03 /* AhSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C6704201346B900D3EA03 /* AhSchema.swift */; };
+		626C67082013522100D3EA03 /* NaSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C67072013522100D3EA03 /* NaSchema.swift */; };
 		62BE31B7201315B700FC88DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE31B6201315B700FC88DC /* AppDelegate.swift */; };
 		62BE31B9201315B700FC88DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE31B8201315B700FC88DC /* ViewController.swift */; };
 		62BE31BC201315B700FC88DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BE31BA201315B700FC88DC /* Main.storyboard */; };
 		62BE31BE201315B700FC88DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BE31BD201315B700FC88DC /* Assets.xcassets */; };
 		62BE31C1201315B700FC88DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BE31BF201315B700FC88DC /* LaunchScreen.storyboard */; };
+		62BE31CF2013405400FC88DC /* UserSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE31CE2013405400FC88DC /* UserSchema.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		626C6704201346B900D3EA03 /* AhSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhSchema.swift; sourceTree = "<group>"; };
+		626C67072013522100D3EA03 /* NaSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaSchema.swift; sourceTree = "<group>"; };
 		62BE31B3201315B700FC88DC /* AVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BE31B6201315B700FC88DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62BE31B8201315B700FC88DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +28,7 @@
 		62BE31BD201315B700FC88DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62BE31C0201315B700FC88DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62BE31C2201315B700FC88DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BE31CE2013405400FC88DC /* UserSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSchema.swift; sourceTree = "<group>"; };
 		8E5F1CCE5DCD802565228D24 /* Pods-AVA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVA/Pods-AVA.debug.xcconfig"; sourceTree = "<group>"; };
 		91BAC2803E19ECB19A6D35C0 /* Pods-AVA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVA.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVA/Pods-AVA.release.xcconfig"; sourceTree = "<group>"; };
 		F9EA929FC61AE73D45818433 /* Pods_AVA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +75,7 @@
 		62BE31B5201315B700FC88DC /* AVA */ = {
 			isa = PBXGroup;
 			children = (
+				62BE31C2201315B700FC88DC /* Info.plist */,
 				62BE31CD2013171300FC88DC /* Models */,
 				62BE31CC201316BB00FC88DC /* plist */,
 				62BE31CB201316AC00FC88DC /* Assets */,
@@ -115,7 +122,6 @@
 		62BE31CC201316BB00FC88DC /* plist */ = {
 			isa = PBXGroup;
 			children = (
-				62BE31C2201315B700FC88DC /* Info.plist */,
 			);
 			path = plist;
 			sourceTree = "<group>";
@@ -123,6 +129,9 @@
 		62BE31CD2013171300FC88DC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				62BE31CE2013405400FC88DC /* UserSchema.swift */,
+				626C6704201346B900D3EA03 /* AhSchema.swift */,
+				626C67072013522100D3EA03 /* NaSchema.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,10 +257,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AVA/Pods-AVA-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -265,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626C67082013522100D3EA03 /* NaSchema.swift in Sources */,
+				62BE31CF2013405400FC88DC /* UserSchema.swift in Sources */,
 				62BE31B9201315B700FC88DC /* ViewController.swift in Sources */,
 				62BE31B7201315B700FC88DC /* AppDelegate.swift in Sources */,
+				626C6705201346B900D3EA03 /* AhSchema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
